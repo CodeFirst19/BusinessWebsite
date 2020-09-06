@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="../css/index.css" />
+    <link href="pricing.css" rel="stylesheet">
+    <link rel="stylesheet" href="../fonts/css/all.css" />
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/pricing/">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Services</title>
+
+</head>
+<body>
+
+    <div class="container py-2">
+
+
+        <section id="section-b" class="sticky-top mb-2">
+            <div>
+              <nav class="navbar navbar-expand-sm navbar-dark bg-dark rounded-top">
+                <a href="#" class="navbar-brand font-weight-bold">KAMOGELO SOFTWARE SOLUTIONS</a>
+                <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                  aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                  <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
+                    <li class="nav-item"><a class="nav-link text-light mr-md-3" >ABOUT</a></li>
+                    <li class="nav-item"><a class="nav-link text-light mr-md-3">SERVICES</a></li>
+                    <li class="nav-item"><a class="nav-link text-light mr-md-3" href="pricing.html">PRICING</a></li>
+                    <li class="nav-item"><a class="nav-link text-light" href="#">BLOG</a></li>
+                  </ul>
+                  <ul class="navbar-nav nav-icons">
+                    <li class="nav-item mr-md-4"><a href="http://www.linkedin.com/in/kamogelo-mokgwatjane" target="_blank"><i class="fab fa-linkedin text-light" aria-hidden="true"></i></a></li>
+                    <li class="nav-item mr-md-4"><a href="#" target="_blank"><i class="fab fa-facebook-square text-light"></i></a></li>
+                    <li class="nav-item mr-md-4"><a href="https://twitter.com/The_Kamza_" target="_blank"><i class="fab fa-twitter text-light"></i></a></li>
+                    <li class="nav-item mr-md-2"><a href="#" target="_blank"><i class="fab fa-instagram text-light"></i></a></li>
+                  </ul>
+              </div>
+            </nav>
+          </div>
+          </section>
+
+          
+          <div class="alert alert-light mt-5 mx-1 " role="alert">
+            <h2 class="lead font-weight-bold">Request Service</h2>
+        </div>
+          
+          <form action="" method="post">
+            <div class="row mt-3">
+                <div class="col-sm-6">
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">Personal Details</h5>
+                      <hr>
+                      <div class="card-text">
+                        <div class="form-group">
+                            <label class="font-weight-bold" for="fname">First Name:</label>
+                            <input type="text"
+                              class="form-control form-control-sm" name="" id="fname" aria-describedby="helpId" required>
+                          </div>
+                          <div class="form-group">
+                              <label class="font-weight-bold" for="lname">Last Name:</label>
+                              <input type="text"
+                                class="form-control form-control-sm" name="FirstName" id="lname" aria-describedby="helpId" required>
+                          </div>
+                          <div class="form-group">
+                              <label class="font-weight-bold" for="cname">Company Name:</label>
+                              <input type="text"
+                                class="form-control form-control-sm" name="LastName" id="cname" aria-describedby="helpId" required>
+                          </div>
+                          <div class="form-group">
+                              <label class="font-weight-bold" for="email">Email Address:</label>
+                              <input type="email"
+                                class="form-control form-control-sm" name="emailAddress" id="emil" aria-describedby="helpId" required> 
+                          </div>
+                          <div class="form-group">
+                              <label class="font-weight-bold" for="phone">Contact Number:</label>
+                              <input type="tel"
+                                class="form-control form-control-sm" name="phoneNumber" id="phone" aria-describedby="helpId" 
+                                required pattern="[0-9]{3} [0-9]{3} [0-9]{4}">
+                                <small id="helpId" class="form-text text-muted">Format: 000 000 0000</small>
+                          </div>    
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">Project Details</h5>
+                      <hr>
+                      <div class="card-text">
+                        <div class="form-group">
+                            <label class="font-weight-bold" for="items">Project Type:</label>
+                            <select class="form-control form-control-sm" name="" id="items" required>
+                              <option></option>
+                              <option>Web Application</option>
+                              <option>Desktop Application</option>
+                              <option>Mobile Application</option>
+                            </select>
+                          </div>
+                          </div>
+                          <div class="form-group">
+                              <label class="font-weight-bold" for="txtarea">Project Description:</label>
+                              <textarea id="txtarea" class="form-control form-control-sm" name="" rows="4" required></textarea>
+                          </div>
+                          <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label font-weight-bold" for="exampleCheck1">Do you need quotation first?</label>
+                          </div>
+                          <input name="" id="" class="btn btn-dark float-right font-weight-bold" type="submit" value="Submit">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+    
+
+          </form>
+
+
+            <section id="section-f" class="mt-4">
+                <div class="py-2 bg-dark text-light text-center rounded-bottom">
+                  <p class="font-weight-bold">Copyright <i class="fas fa-copyright"></i> 2019 Kamogelo Software Solutions</p>
+                  <ul class="list-unstyled">
+                    <li> Call us on:
+                      <a href="#" class="text-light"> +27 (71) 407 0279</a>
+                    </li>
+                    <li> Email us on:
+                      <a href="#" class="text-light"> kamogelomokgabudi19@gmail.com</a>
+                    </li>
+                    <li> Address:
+                        <a href="#" class="text-light">6215 Daveyton, Cloverdene</a>
+                      </li>
+                  </ul>
+                </div>
+              </section>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
